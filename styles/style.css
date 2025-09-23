@@ -1,1 +1,138 @@
-/* место для вашего кода */
+body {
+  font-weight: 400;
+  font-size: 18px;
+}
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 93px 50px 91px 50px;
+}
+
+.header__menu {
+  padding: 0 0 8px 0;
+}
+
+.header__links-list {
+  display: flex;
+  gap: 33px;
+  line-height: 1;
+  text-transform: lowercase;
+  list-style: circle;
+}
+
+.header__links-list-item {
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header__link {
+  text-underline-position: under;
+}
+
+.header__link_active {
+  text-decoration: none;
+}
+
+.header__logo {
+  display: block;
+}
+
+.header__logo-image {
+  width: 148px;
+  height: 105px;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  max-width: 240px;
+  padding-bottom: 5px;
+  line-height: 24.3px;
+  letter-spacing: 0;
+  text-underline-position: under;
+}
+
+.header__address {
+  justify-self: end;
+}
+
+.cover {
+  position: relative;
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 757px;
+  padding: 165px 50px 50px;
+  color: #fff;
+  background: url(../images/cover.jpg) center / cover no-repeat;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.cover__title {
+  position: relative;
+  z-index: 1;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 115%;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+}
+
+.aligned-text {
+  display: block;
+}
+
+.aligned-text_left {
+  text-align: left;
+}
+
+.aligned-text_center {
+  padding: 20px 0 20px 31px;
+  text-align: center;
+}
+
+.aligned-text_right {
+  text-align: right;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0;
+}
+
+.cover__description {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 108px;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 90%;
+  text-transform: uppercase;
+}
+
+.cover__description-text {
+  word-spacing: 18px;
+}
+
+.bet-button {
+  border: 1px solid #fff;
+  padding: 11px 32px;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  background: transparent;
+}
