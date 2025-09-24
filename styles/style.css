@@ -250,21 +250,18 @@ body {
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  align-items: center;
   align-content: space-between;
-  padding: 0 50px 116px;
+  padding: 10px 50px;
 }
 
 .footer__menu {
   display: flex;
   flex-direction: column;
-  justify-self: center;
-  line-height: 135%;
-  text-align: center;
   text-transform: lowercase;
 }
 
 .footer__menu-list {
+  text-align: center;
   list-style: none;
 }
 
